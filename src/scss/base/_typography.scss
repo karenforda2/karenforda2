@@ -1,0 +1,33 @@
+.header{
+    font-family: 'Yeseva One', cursive;
+}
+
+.navigation--item,
+.content--headings{
+    text-transform: uppercase;
+    position:relative;
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#fff;
+
+     @include breakpoint(small) {
+        letter-spacing:2px;
+    }
+}
+
+ .lead{
+    font-family: 'Yeseva One', cursive;
+    color:#fff;
+
+    @include breakpoint(medium down) {
+       font-size:46px;
+    }
+
+    @include breakpoint(small down) {
+        font-size:26px;
+    }
+}
+
+footer a{
+    color:#ff2769;
+}
