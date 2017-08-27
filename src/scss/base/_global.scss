@@ -1,0 +1,26 @@
+.row{
+	padding-left:15px;
+	padding-right:15px;
+
+	.row{
+		padding-left:0;
+		padding-right:0;
+	}
+}
+	
+.btn{
+	border:1px solid #fff;
+	display:inline-block;
+	padding:15px;
+	line-height:1;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight:bold;
+	transition: all 0.3s ease-in-out 0s;
+
+	&:hover, &:active{
+		color:#84ddb9;
+		border: 1px solid #84ddb9;
+	}
+}
+    

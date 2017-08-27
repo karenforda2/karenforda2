@@ -1,4 +1,4 @@
-.header{
+.header, h4{
     font-family: 'Yeseva One', cursive;
 }
 
@@ -8,7 +8,9 @@
     position:relative;
     font-weight:bold;
     letter-spacing: 3px;
-    color:#fff;
+	color:#fff;
+	text-align:left;
+	margin-bottom:2.5rem;
 
      @include breakpoint(small) {
         letter-spacing:2px;

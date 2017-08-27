@@ -115,6 +115,10 @@ $paragraph-margin-bottom: 1rem !default;
 /// @type String
 $paragraph-text-rendering: optimizeLegibility !default;
 
+/// Font size for paragraph text.
+/// @type String
+$paragraph-font-size: $global-font-size !default;
+
 /// Text color of code samples.
 /// @type Color
 $code-color: $black !default;
@@ -280,7 +284,7 @@ $abbr-underline: 1px dotted $black !default;
   p {
     margin-bottom: $paragraph-margin-bottom;
 
-    font-size: inherit;
+    font-size: $paragraph-font-size;
     line-height: $paragraph-lineheight;
     text-rendering: $paragraph-text-rendering;
   }

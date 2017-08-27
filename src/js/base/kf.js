@@ -1,14 +1,13 @@
 (!function() {
-    "use strict";
+	"use strict";
 
-    function init() {
-        window.kf = {
-            controls: {},
-            pages: {},
-            utils: {}
-        }
-    }
-    
-    init();
+	function init() {
+		window.kf = {
+			controls: {},
+			pages: {},
+			utils: {}
+		}
+	}
 
+	init();
 }());

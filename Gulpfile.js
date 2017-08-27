@@ -344,7 +344,7 @@ function startWebserver(options) {
 			directoryListing: false,
 			fallback: 'index.html',
 			host: '0.0.0.0',
-			livereload: false,
+			livereload: true,
 			open: false,
 			port: port,
 			https: isHttps
