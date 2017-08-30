@@ -2,6 +2,11 @@
 	padding-left:15px;
 	padding-right:15px;
 
+	@include breakpoint(small down) {
+		padding-left:10px;
+		padding-right:10px;
+    }
+
 	.row{
 		padding-left:0;
 		padding-right:0;
@@ -18,9 +23,14 @@
 	font-weight:bold;
 	transition: all 0.3s ease-in-out 0s;
 
+	@include breakpoint(small down) {
+        padding:10px;
+    }
+
 	&:hover, &:active{
 		color:#84ddb9;
 		border: 1px solid #84ddb9;
 	}
 }
-    
+	
+
