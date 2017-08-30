@@ -38,6 +38,7 @@
 			}
 		}, 16);
 
+		// poll on scroll for user scrolling in opposite direction of animation, and if so, cancel animation
 		$(window).on('scroll', function() {
 			var currentScrollY = window.scrollY || window.pageYOffset;
 			if (currentScrollY < lastScrollY) {
